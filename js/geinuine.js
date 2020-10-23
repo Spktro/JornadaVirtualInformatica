@@ -36,7 +36,7 @@
     });
 
     // jQuery Countdown Init
-    $('.event-timer').countdown( '2020/10/24', function(e) {
+    $('.event-timer').countdown( '2020/10/24 09:20', function(e) {
         $( this ).html( e.strftime( '<h3>%d: <span>Dias</span></h3> <h3>%H: <span>horas</span></h3> <h3>%M: <span>minutos</span></h3> <h3>%S: <span>segundos</span></h3>' ) );
     });
 
